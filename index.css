@@ -107,11 +107,22 @@ input:focus {
 
 #form--section {
   position: relative;
-  top: 55px;
+  top: 15px;
   left: 500px;
   height: 600px;
   width: 500px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.form--heading {
+  position: relative;
+  left: 35px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  top: 10px;
 }
 
 #submit--btn {
@@ -176,6 +187,10 @@ input:focus {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+.img:hover {
+  transform: scale(1.04);
 }
 
 .img {
